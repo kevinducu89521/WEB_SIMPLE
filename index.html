@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción Liga Colombiana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-overlay"></div>
+    <div class="container">
+        <div class="hero">
+            <h1>Suscríbete para ver los partidos de la Liga Colombiana</h1>
+            <p>Recibe noticias, fechas y enlaces exclusivos para no perderte ningún clásico.</p>
+        </div>
+        <form id="subscription-form">
+            <input type="email" id="email" placeholder="Ingresa tu email" required>
+            <button type="submit">Quiero Ver los Partidos</button>
+        </form>
+        <div id="message"></div>
+        <p class="small-text">Recibirás un correo de suscripción con información de la liga.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
